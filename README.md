@@ -3,9 +3,14 @@
 #  Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
 Artemis Financial is a company that focuses on providing their clients with financial planning, which includes retirement and savings. Artemis Financial was looking to address the security of their web-based API. Artemis has private financial and personal information that needs to remain secure and has reached out to Global Rain for help in that.
 #  What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
-
+After finding Artemis Financials software security vulnerabilites, through static testing and manual review, I was able to refactor code and check vulnerabilites to provide fixes for the clients issues. Secure code is important for the safety and security of yourself, your client, and all those involved. Private information is at risk with non-secure code and also the integrity of systems that companies work hard to build. Software security can add a level of trust to a company that will allow the wellbeing of the company to be put at the forfront for customers and clients.
 #  What part of the vulnerability assessment was challenging or helpful to you?
+The most challenging part of the vulnerability assessment for me was the sheer volume of information from within the dependency reports. There were multiple layers of vulnerabilites within each individual one that was found. 
 #  How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+I was able to increase the layers of security for Artemis by adding hash functions and running the websites in http as opposed to http. 
 #  How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+To ensure that the code and software application were functional and secure I created a checksum to make sure that the output that was expected was just that. There was also a checking, before and after, of the dependecncy check that allowed for a visual check of whether the code was functional. 
 #  What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+For future assignments I belive that the Maven dependency plugin will be helpful in the code that I am writing and working with. Using the maven plugin will help me to quickly see vulnerabilites and make the proper changes to my code to alleviate those issues.
 #  Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+A future employer will be able to see the secure coding practices and industry best standards that I have learned in this class and those prior that will allow for me to properly code safe and securely for the company.
